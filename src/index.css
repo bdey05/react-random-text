@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+select {
+	appearance: none;
+  cursor: pointer;
+}
+
+
+body{
+  display: flex;
+ 
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #546270;
+}
+
+h2{
+  color: #e66868;
+  margin-bottom: 10px;
+}
+
+
+
+.gen{
+  padding: 100px;
+}
+
+.display{
+  border-radius: 15px;
+  
+}
+
+.text{
+  width: 100%;
+  height: 100%;
+  background-color: #fffefe;
+  padding: 40px;
+  font-size: 17px;
+  border-bottom-left-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+  background: repeating-linear-gradient(-45deg, rgb(255, 255, 255), rgb(255, 255, 255) 8px, rgb(244, 246, 248) 8px, rgb(244, 246, 248) 16px) 0% 0% / 180px 180px;
+  color: rgb(123, 136, 152);
+  line-height: 1.5;
+}
+
+.display{
+  width: 800px;
+}
+
+.form{
+  padding: 20px;
+  background: #f4f7f9;
+  color: #909aa8;
+}
+
+.form input, select, button{
+  color: #7B8898;
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border: 3px solid #d3dbe4;
+  border-radius: 0.375em;
+  margin: 10px;
+font-weight: 700;
+
+}
+
+.form input{
+  width: 4.25em;
+}
+
+.form select{
+  width: 13em;
+}
+
+
+.form button{
+  color: rgb(255, 255, 255);
+  background: repeating-linear-gradient(
+-45deg
+, rgb(255, 125, 122), rgb(255, 125, 122) 8px, rgb(255, 106, 103) 8px, rgb(255, 106, 103) 16px);
+  border: none;
+  padding: 13px;
+  cursor: pointer;
+}
+
+
+.controls, .form{
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+
+
+.controls{
+  display: flex;
+  background: #f4f7f9;
+  gap: 100px;
+  align-items: center;
+  border-bottom: 3px solid #d3dbe4;
+
+}
+
+#btn{
+  color: rgb(255, 255, 255);
+  border: none;
+  background: #FF6A67;
+  cursor: pointer;
+  width: 100px;
+  height: 100%;
+  padding: 13px;
+  font-size: 17px;
+}
+#btn i{
+  margin-left: 10px;
+}
